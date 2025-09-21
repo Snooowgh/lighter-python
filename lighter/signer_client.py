@@ -19,7 +19,7 @@ from lighter import nonce_manager
 from lighter.models.resp_send_tx import RespSendTx
 from lighter.transactions import CreateOrder, CancelOrder, Withdraw
 
-logging.basicConfig(level=logging.DEBUG)
+logging.basicConfig(level=logging.INFO)
 
 CODE_OK = 200
 
